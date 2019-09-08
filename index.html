@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=\, initial-scale=1.0">
@@ -7,10 +8,26 @@
     <title>Trivia Game</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-    
-    
-    
-    <script src="./assets/javascript/app.js"></script>
+    <header>Trivia Game</header>
+    <h4 id="timeRemaining">
+        Time remaining: 30 seconds
+    </h4>
+    <div>
+        <button id="startGame" class="btn btn-primary">Start</button>
+    </div>
+    <div id="formQuiz"></div>
+    <div id="formSubmit"></div>
+        <div id="quizResults"></div>
+        <div id="question-screen">
+            <h1></h1>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="./assets/javascript/app.js"></script>
 </body>
+
 </html>
