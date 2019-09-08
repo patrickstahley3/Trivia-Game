@@ -65,7 +65,7 @@ function writeSubmitButton() {
             counter--;
             $("#timeRemaining").html("<h2><mark>" + counter + " seconds remaining.</mark></h2>");
             if (counter === 0) {
-                alert("Time Up!");
+               stop();
                 showResults();
             }
         }
